@@ -1,0 +1,5 @@
+package com.questions.QuizService.entities;
+
+public class Quiz {
+
+}

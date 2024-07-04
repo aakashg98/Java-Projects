@@ -1,0 +1,13 @@
+package com.questions.QuizService;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication(exclude = {DataSourceAutoConfiguration.class })
+public class QuizServiceApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(QuizServiceApplication.class, args);
+	}
+
+}

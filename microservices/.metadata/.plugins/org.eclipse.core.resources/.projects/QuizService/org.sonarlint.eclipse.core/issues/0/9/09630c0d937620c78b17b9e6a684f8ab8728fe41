@@ -1,0 +1,19 @@
+
+h
+java:S2065"0Remove the "transient" modifier from this field.(Üç¢÷şÿÿÿÿ8ÁàÒâ‡2HîRMINORZ
+CODE_SMELL
+}
+java:S1124"EReorder the modifiers to comply with the Java Language Specification.(Üç¢÷şÿÿÿÿ8ÁàÒâ‡2HïRMINORZ
+CODE_SMELL
+n
+java:S1128	"6Remove this unused import 'lombok.AllArgsConstructor'.(´œ¾öùÿÿÿÿ8¹‹ã‡2HÚRMINORZ
+CODE_SMELL
+]
+java:S1128"*Remove this unused import 'lombok.Getter'.(ùÒµÙ8¹‹ã‡2HÜRMINORZ
+CODE_SMELL
+h
+java:S1128"5Remove this unused import 'lombok.NoArgsConstructor'.(¸¨›8¹‹ã‡2HŞRMINORZ
+CODE_SMELL
+]
+java:S1128"*Remove this unused import 'lombok.Setter'.(ó¸çµ8¹‹ã‡2HàRMINORZ
+CODE_SMELL

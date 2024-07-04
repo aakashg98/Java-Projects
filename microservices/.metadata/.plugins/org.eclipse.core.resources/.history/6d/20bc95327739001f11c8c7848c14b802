@@ -1,0 +1,52 @@
+package com.questions.QuestionService.services.impl;
+
+import org.checkerframework.checker.nullness.qual.Nullable;
+import org.hibernate.resource.beans.spi.ManagedBean;
+import org.hibernate.type.descriptor.java.JavaType;
+import org.springframework.stereotype.Service;
+
+import com.questions.QuestionService.repositories.QuestionRepository;
+
+import jakarta.persistence.AttributeConverter;
+
+@Service
+public class QuestionServiceImpl implements QuestionRepository{
+
+	@Override
+	public JavaType<? extends AttributeConverter<QuestionRepository, Long>> getConverterJavaType() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public ManagedBean<? extends AttributeConverter<QuestionRepository, Long>> getConverterBean() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public @Nullable QuestionRepository toDomainValue(@Nullable Long relationalForm) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public @Nullable Long toRelationalValue(@Nullable QuestionRepository domainForm) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public JavaType<QuestionRepository> getDomainJavaType() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public JavaType<Long> getRelationalJavaType() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	
+}

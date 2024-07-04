@@ -1,0 +1,15 @@
+package com.quiz.services.impl;
+
+import java.util.List;
+
+import org.aspectj.weaver.patterns.TypePatternQuestions.Question;
+import org.springframework.cloud.openfeign.FeignClient;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
+
+@FeignClient(url="https://localhost:8082", value= "Question-Client")
+public interface QuizClient {
+
+	@GetMapping("/question/quiz/{quizId}")
+	List<Question> getQuestionsOfQuiz(@PathVariable Long quizId);
+}
