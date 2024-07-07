@@ -7,7 +7,8 @@ import org.springframework.web.bind.annotation.PathVariable;
 
 import com.quiz.entities.Question;
 
-@FeignClient(url="http://localhost:8082", value= "Question-Client")
+//@FeignClient(url="http://localhost:8082", value= "Question-Client")
+@FeignClient(name= "QUESTIONSERVICE")
 public interface QuestionClient {
 
 	@GetMapping("/question/quiz/{quizId}")
